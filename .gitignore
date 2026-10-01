@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data outputs
+data/*.csv
+data/*.json
+!data/.gitkeep
+*.parquet
+*.parq
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+
+# Environment
+.env
+.env.local
+
+# Hugging Face cache
+.cache/huggingface/
+
+# Docker
+.docker/
